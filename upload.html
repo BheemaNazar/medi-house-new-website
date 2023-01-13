@@ -1,0 +1,131 @@
+<!DOCTYPEhtml>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign in</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: white;
+  color: #55ACEE;
+}
+
+.fa-linkedin {
+  background: white;
+  color: #007bb5;
+}
+
+.fa-youtube {
+  background: white;
+  color:#bb0000 ;
+}
+
+		body{
+			margin: 0;
+		}
+		.mbar{
+			list-style-type: none;
+			top: 0;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: lightblue;
+	        width: 100%;
+	        position: fixed;
+	        
+		}
+	    .lmbar{
+	    	float: right;
+	    }
+		.lmbar .ambar{
+			text-align: center;
+		    padding: 40px 100px;
+			color: white;
+		}
+		.lmbar .ambar:hover{
+			color: black;
+		}
+	    #search1{
+	    	border-radius: 20px;
+	    	border: none;
+	    }
+	    #search2{
+	    	border-radius: 20px;
+	    	border: none;
+	    	background-color: grey;
+	    }
+	  
+	    </style>
+</head>
+<body>
+      <ul class="mbar">
+	    <li class="lmbar"><a class="ambar" href="signin.html">Sign in/Sign up</a></li>
+		<li class="lmbar"><a class="ambar" href="#cart">Cart</a></li>
+        
+        <li class="lmbar"><a class="ambar" href="#search"><input type="text" name="search" placeholder="search for medicine & beauty products..." id="search1">
+        	<input type="submit" value="search" id="search2"></a></li>
+        <li class="lmbar"><a class="ambar" href="website.html"><img src="logo.jpg" alt="logo" height="100" width="100"></a></li>
+	</ul>
+	<div style="margin-top: 140px;background-color: white;height: 1000px;">
+		<div style="width:100%;height: 500px;">
+			<div style="width:50%;height: 500px;float: left;">
+				<h1 style="padding-left: 200px;padding-top: 100px; color: orange;">Upload your prescription here:</h1>
+				<input type="file" id="image"name="image" style="padding-left: 200px;">
+				<h1></h1>
+                <center><input type="submit" value="submit" style="background-color: lightblue;border:none;border-radius: 50px;"></center>
+			</div>
+			<div style="width:49%;height: 500px;float: left;">
+				<h2>Make sure the prescription you upload contains the following elements:</h2>
+				<div style="width:100%;height: 200px;">
+					<div style="width:49%;height: 200px;float: left;">
+						<img src="dr.png" height="150" width="150"  style="padding-left: 50px;">
+						<h3  style="padding-left: 70px;">Doctor Details</h3>
+					</div>
+                    <div style="width:49%;height: 200px;float: left;">
+                    	<img src="priscrip.png" height="150" width="150"  style="padding-left: 50px;">
+						<h3 style="padding-left: 70px;">Date of Priscription</h3>
+                    </div>   
+				</div>
+				<div style="width:100%;height: 200px;">
+					<div style="width:49%;height: 200px;float: left;">
+						<img src="patient.png" height="150" width="150"  style="padding-left: 50px;">
+						<h3 style="padding-left: 70px;">patient Details</h3>
+					</div>
+					<div style="width:49%;height: 200px;float: left;">
+						<img src="med.png" height="150" width="150"  style="padding-left: 50px;">
+						<h3 style="padding-left: 70px;">Medicine Details</h3>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div style="width:100%;height: 500px;">
+			<div style="width: 40%; height: 500px;background-color: black; float: left;">
+    			<img src="logo.jpg" alt="logo" height="100" width="100" style="padding-left: 50px; padding-top: 50px;">
+    			<h3 style=" padding-left: 50px;color: white;">Medi House</h3>
+    		</div>
+    		<div style="width: 59%; height: 500px;background-color: black;float: left;">
+    			<h2 style="padding-left: 100px; color: white;">Find Us</h2>
+    			<a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+    		</div>
+		</div>
+	</div>
+</body>
+</html>
